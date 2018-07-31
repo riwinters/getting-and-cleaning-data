@@ -1,6 +1,6 @@
-Code Book
+# **Code Book**
 
-This code book summarizes the resulting data fields in tidy_data.txt.
+This code book summarizes the resulting data fields in **tidy_data.txt**.
 
 About R script
 
@@ -8,33 +8,38 @@ About R script
 File with R code "run_analysis.R" perform following six steps :
 
 Merging the training and the test sets to create one data set.
+i just couldnt solve this problem i'm facing while creating list in a markdown file. so,the list is created in this order
 
-1.1 Reading files
-1.1.1 Reading trainings tables
-1.1.2 Reading testing tables
-1.1.3 Reading feature vector
-1.1.4 Reading activity labels
-1.2 Merging training and test dataset
-1.3 removing individual data tables to save memory
-1.4 assigning column names
-2.1 determining columns of data set, to keep based on the column name
-2.2 and keeping the data in these columns only
-3 replacing activity values with named factor levels
-4.1 getting column names
-4.2 removing special characters
-4.3 expanding abbreviations and cleaning up names
-4.4 correcting typo
-4.5 using new labels as column names
-Creating a second, independent tidy set with the average of each variable for each activity and each subject
-5 grouping by subject and activity and summarising using mean
-6 putting the output in the file "tidy_data.txt"
+1. Merging the training and the test sets to create one data set.   
+  1.1 Reading files
+    1.1.1 Reading trainings tables
+    1.1.2 Reading testing tables
+    1.1.3 Reading feature vector
+    1.1.4 Reading activity labels
+  1.2 Merging training and test dataset
+  1.3 removing individual data tables to save memory
+  1.4 assigning column names
+2.
+  2.1. determining columns of data set, to keep based on the column name
+  2.2. and keeping the data in these columns only
+3. replacing activity values with named factor levels
+4.  
+  4.1. getting column names
+  4.2. removing special characters
+  4.3. expanding abbreviations and cleaning up names
+  4.4. correcting typo
+  4.5. using new labels as column names
+  Creating a second, independent tidy set with the average of each variable for each activity and each subject
+5. grouping by subject and activity and summarising using mean
+6. putting the output in the file "tidy_data.txt"
 
-Variables
+
+# **Variables**
 
 Each row contains, for a given subject and activity, 79 averaged signal measurements.
 
 
-Identifiers
+# **Identifiers**
 
 subject
 Subject identifier, integer, ranges from 1 to 30.
@@ -50,7 +55,7 @@ STANDING: subject was standing
 LAYING: subject was laying
 
 
-Transformations
+# **Transformations**
 
 
 The zip file containing the source data is located at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
