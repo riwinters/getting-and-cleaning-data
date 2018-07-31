@@ -40,12 +40,12 @@ human_activity=rbind(
         +     cbind(test_subject,test_value,test_activity)
         + )
 
-# 1.3 remove individual data tables to save memory
+# 1.3 removing individual data tables to save memory
 
 rm(training_subject,training_value,training_activity, 
    test_subject,test_value,test_activity)
 
-# 1.4 assign column names
+# 1.4 assigning column names
 
 colnames(human_activity)=c("subject",feature[,2],"activity")
 
